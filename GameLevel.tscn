@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://GameLevel.gd" type="Script" id=1]
+[ext_resource path="res://tunnel.tscn" type="PackedScene" id=2]
+
+[node name="Game" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Tunnel" parent="." instance=ExtResource( 2 )]
+data = {
+"cells": PoolIntArray(  )
+}

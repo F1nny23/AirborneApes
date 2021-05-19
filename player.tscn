@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://player.gd" type="Script" id=1]
+
+[sub_resource type="CapsuleMesh" id=1]
+
+[node name="player" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 0.998476, 0, -4.36448e-08, -4.36448e-08, 1.90777e-15, -0.998476, 0, 0.998476, 1.90777e-15, 0, 0, 0 )
+mesh = SubResource( 1 )
+material/0 = null
