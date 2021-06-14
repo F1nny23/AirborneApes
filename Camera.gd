@@ -1,11 +1,24 @@
 extends Camera
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+onready var players = get_tree().get_nodes_in_group("Player")
+var player_y_pos_average = 0
+var player_x_pos_average = 0
+var player_z_pos_average = 0
+var camera_height = 10
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	pass
+	
+func _process(delta):
+	for player in players:
+		player_x_pos_average = player.translation.x 
+		player_y_pos_average = player.translation.y
+		player_z_pos_average = player.translation.z 
+	player_y_pos_average = player_y_pos_average/players.size()
+	translation = translation.move_toward(Vector3(player_x_pos_average,translation.y,player_z_pos_average),delta * 5)
+	translation.y = player_y_pos_average + camera_height
+	
+	
+	
+
