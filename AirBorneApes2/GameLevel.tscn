@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://level.tres" type="MeshLibrary" id=2]
+[ext_resource path="res://player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://GridMap.gd" type="Script" id=4]
+[ext_resource path="res://Camera.gd" type="Script" id=5]
+
+[node name="Game" type="Spatial"]
+
+[node name="player" parent="." instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 58.9715, 0 )
+
+[node name="GridMap" type="GridMap" parent="."]
+transform = Transform( 2, 0, 0, 0, 5, 0, 0, 0, 2, 0, 0, 0 )
+mesh_library = ExtResource( 2 )
+cell_size = Vector3( 1, 1, 1 )
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+cell_scale = 8.0
+data = {
+"cells": PoolIntArray(  )
+}
+script = ExtResource( 4 )
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, 2, 0 )
+}
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 77.6596, 0 )
+near = 6.66
+script = ExtResource( 5 )
