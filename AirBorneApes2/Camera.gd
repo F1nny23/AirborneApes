@@ -6,7 +6,7 @@ var player_y_pos_average = 0
 var player_x_pos_average = 0
 var player_z_pos_average = 0
 var camera_height = 10
-var cam_move = 10
+var cam_move = 20
 
 func _ready():
 	pass
