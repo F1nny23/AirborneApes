@@ -14,6 +14,7 @@ func _physics_process(delta):
 	if Input.is_action_pressed("ui_down"):
 		add_central_force(Vector3.BACK * force)
 	
-	
+	if Input.is_action_pressed("ui_accept"):
+		add_central_force(Vector3.DOWN * force)
 
 
