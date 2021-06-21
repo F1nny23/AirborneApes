@@ -8,7 +8,7 @@
 [node name="Game" type="Spatial"]
 
 [node name="player" parent="." instance=ExtResource( 3 )]
-transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 58.9715, 0 )
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -432.525, 58.9715, 0 )
 
 [node name="GridMap" type="GridMap" parent="."]
 transform = Transform( 3, 0, 0, 0, 5, 0, 0, 0, 3, 0, 0, 0 )
@@ -28,6 +28,6 @@ __meta__ = {
 }
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 77.6596, 0 )
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -432.525, 77.6596, 0 )
 near = 6.66
 script = ExtResource( 5 )
