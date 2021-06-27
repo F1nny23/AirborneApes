@@ -5,7 +5,7 @@ onready var players = get_tree().get_nodes_in_group("Player")
 var player_y_pos_average = 0
 var player_x_pos_average = 0
 var player_z_pos_average = 0
-var camera_height = 10
+var camera_height = 8
 var cam_move = 20
 
 func _ready():
