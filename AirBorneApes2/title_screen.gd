@@ -10,4 +10,8 @@ func _on_Settings_pressed():
 
 
 func _on_Quit_pressed():
-	pass 
+	get_tree().quit()
+
+
+
+
