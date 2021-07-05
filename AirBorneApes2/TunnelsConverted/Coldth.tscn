@@ -1,7 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://BlenderModels/Coldth.glb" type="PackedScene" id=1]
 [ext_resource path="res://TunnelPiece.gd" type="Script" id=2]
+
+[sub_resource type="PhysicsMaterial" id=3]
+friction = 0.0
 
 [sub_resource type="BoxShape" id=1]
 extents = Vector3( 10.4137, 0.156974, 7.44778 )
@@ -13,6 +16,7 @@ data = PoolVector3Array( -0.1875, 0, -2.5, 0.3125, 0, -3, 0.3125, 0, -2.5, -0.18
 script = ExtResource( 2 )
 
 [node name="StaticBody" type="StaticBody" parent="Cube" index="0"]
+physics_material_override = SubResource( 3 )
 
 [node name="CollisionShape5" type="CollisionShape" parent="Cube/StaticBody" index="0"]
 transform = Transform( 1.91069e-15, -4.37114e-08, -0.374723, -0.171811, -7.51011e-09, 0, -4.37114e-08, 1, -1.63796e-08, 0.581282, 0, 2.99378 )
