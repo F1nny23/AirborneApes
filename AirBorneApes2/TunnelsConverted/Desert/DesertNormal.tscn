@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://BlenderModels/Plane base.glb" type="PackedScene" id=1]
+[ext_resource path="res://TunnelsConverted/TunnelWalls.tscn" type="PackedScene" id=2]
+[ext_resource path="res://TunnelsConverted/TunnelPiece.gd" type="Script" id=3]
+[ext_resource path="res://TunnelsConverted/Desert/Desert.tres" type="Material" id=4]
+
+[node name="DesertNormal" instance=ExtResource( 1 )]
+script = ExtResource( 3 )
+
+[node name="Cube" parent="." index="0"]
+material/0 = ExtResource( 4 )
+
+[node name="StaticBody" parent="." index="1" instance=ExtResource( 2 )]
+
+[node name="VisibilityNotifier" type="VisibilityNotifier" parent="." index="2"]
+
+[connection signal="screen_exited" from="VisibilityNotifier" to="." method="_on_VisibilityNotifier_screen_exited"]

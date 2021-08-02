@@ -18,8 +18,8 @@ func _ready():
 
 
 func _on_VisibilityNotifier_screen_exited():
-	print("gone")
-	print(get_parent())
+	#print("gone")
+	#print(get_parent())
 	get_parent().create_new() 
 	queue_free()
 	pass # Replace with function body.

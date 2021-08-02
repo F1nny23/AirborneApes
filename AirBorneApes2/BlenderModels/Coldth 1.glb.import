@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Gorilla model.glb-d954b77bda339d3b8f31ba7bfae98407.scn"
+path="res://.import/Coldth 1.glb-ef9acc342ffe59d033b17b15113e8825.scn"
 
 [deps]
 
-source_file="res://Gorilla model.glb"
-dest_files=[ "res://.import/Gorilla model.glb-d954b77bda339d3b8f31ba7bfae98407.scn" ]
+source_file="res://BlenderModels/Coldth 1.glb"
+dest_files=[ "res://.import/Coldth 1.glb-ef9acc342ffe59d033b17b15113e8825.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Plane 2 with pillar.glb-75f1545a62bf81ffd8f6aa07bdf8f038.scn"
+path="res://.import/Coldth 2.glb-e427a987178e7fcf327d6cb83b01837c.scn"
 
 [deps]
 
-source_file="res://BlenderModels/Plane 2 with pillar.glb"
-dest_files=[ "res://.import/Plane 2 with pillar.glb-75f1545a62bf81ffd8f6aa07bdf8f038.scn" ]
+source_file="res://BlenderModels/Coldth 2.glb"
+dest_files=[ "res://.import/Coldth 2.glb-e427a987178e7fcf327d6cb83b01837c.scn" ]
 
 [params]
 

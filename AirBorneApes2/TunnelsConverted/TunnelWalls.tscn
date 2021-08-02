@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=2]
+
+[sub_resource type="PhysicsMaterial" id=1]
+friction = 0.0
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 1.46753, 0.156974, 5.56707 )
+
+[sub_resource type="BoxShape" id=3]
+extents = Vector3( 1.46753, 0.156974, 5.56707 )
+
+[sub_resource type="BoxShape" id=4]
+extents = Vector3( 1.46753, 0.156974, 5.56707 )
+
+[sub_resource type="BoxShape" id=5]
+extents = Vector3( 1.46753, 0.156974, 5.56707 )
+
+[node name="TunnelWalls" type="StaticBody"]
+physics_material_override = SubResource( 1 )
+
+[node name="CollisionShape5" type="CollisionShape" parent="."]
+transform = Transform( 1.23323e-14, -4.37114e-08, -1, -1, -2.8213e-07, -2.20588e-20, -2.8213e-07, 1, -4.37114e-08, 0.581282, 0, 4.10002 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape6" type="CollisionShape" parent="."]
+transform = Transform( 1.23323e-14, -4.37114e-08, -1, -1, -2.8213e-07, -2.20588e-20, -2.8213e-07, 1, -4.37114e-08, 0.581282, 0, -4.11246 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape7" type="CollisionShape" parent="."]
+transform = Transform( -2.8213e-07, 1, 0, -1, -2.8213e-07, 0, 0, 0, 1, 4.10001, 0, 0.36877 )
+shape = SubResource( 4 )
+
+[node name="CollisionShape8" type="CollisionShape" parent="."]
+transform = Transform( -2.8213e-07, 1, 0, -1, -2.8213e-07, 0, 0, 0, 1, -4.12494, 0, 0.275021 )
+shape = SubResource( 5 )

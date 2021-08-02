@@ -12,4 +12,9 @@ func _ready():
 
 
 func _process(delta):
-	text = "Altitude : " + str(round(get_parent().get_node("player").translation.y))
+	var alt = get_parent().altitude
+	text = "Altitude : " + str(round(alt))
+	if alt < 300:
+		get_tree().change_scene("res://title_screen.tscn")
+
+#ITS NOT A RANDOM CRASH

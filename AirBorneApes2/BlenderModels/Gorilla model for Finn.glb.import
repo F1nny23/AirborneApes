@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Gorilla model for Finn.glb-dea829592a78fd8acb8b7d35c2132c27.scn"
+path="res://.import/Gorilla model for Finn.glb-251e21a2d384480d413198c19dc2f2ff.scn"
 
 [deps]
 
-source_file="res://Gorilla model for Finn.glb"
-dest_files=[ "res://.import/Gorilla model for Finn.glb-dea829592a78fd8acb8b7d35c2132c27.scn" ]
+source_file="res://BlenderModels/Gorilla model for Finn.glb"
+dest_files=[ "res://.import/Gorilla model for Finn.glb-251e21a2d384480d413198c19dc2f2ff.scn" ]
 
 [params]
 

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Gorilla model.obj-231021eb174af320c5bcb5404c473de8.mesh"
+
+[deps]
+
+files=[ "res://.import/Gorilla model.obj-231021eb174af320c5bcb5404c473de8.mesh" ]
+
+source_file="res://BlenderModels/Gorilla model.obj"
+dest_files=[ "res://.import/Gorilla model.obj-231021eb174af320c5bcb5404c473de8.mesh", "res://.import/Gorilla model.obj-231021eb174af320c5bcb5404c473de8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

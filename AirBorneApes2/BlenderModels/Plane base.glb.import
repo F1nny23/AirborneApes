@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/level.glb-3927a4728b5c291a9e5c9b208a052984.scn"
+path="res://.import/Plane base.glb-2af8e8dcba4a135c2701854611104105.scn"
 
 [deps]
 
-source_file="res://level.glb"
-dest_files=[ "res://.import/level.glb-3927a4728b5c291a9e5c9b208a052984.scn" ]
+source_file="res://BlenderModels/Plane base.glb"
+dest_files=[ "res://.import/Plane base.glb-2af8e8dcba4a135c2701854611104105.scn" ]
 
 [params]
 
